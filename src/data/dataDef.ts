@@ -39,7 +39,8 @@ interface HeroActionItem {
  */
 export interface About {
   profileImageSrc?: string;
-  description: string;
+  descriptionIntro: string;
+  descriptionEnd: string;
   aboutItems: AboutItem[];
 }
 
@@ -73,15 +74,6 @@ export interface SkillGroup {
   skills: Skill[];
 }
 
-/**
- * Portfolio section
- */
-export interface PortfolioItem {
-  title: string;
-  description: string;
-  url: string;
-  image: string | StaticImageData;
-}
 
 /**
  * Resume section
@@ -96,13 +88,12 @@ export interface TimelineItem {
 /**
  * Testimonial section
  */
-export interface TestimonialSection {
+export interface InterestsSection {
   imageSrc?: string | StaticImageData;
-  testimonials: Testimonial[];
+  interests: Interest[];
 }
 
-export interface Testimonial {
-  image?: string;
+export interface Interest {
   name: string;
   text: string;
 }
