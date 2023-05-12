@@ -26,6 +26,8 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content={description} property="og:description" />
         <meta content="https://renjijosephsabu.vercel.app/" property="og:url" />
 
+        <meta content="7440bxLtB6lHg76hwOjxI4ecokUxs4jQKVJryTth7Vw" name="google-site-verification" />
+
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
         <meta content="https://i.ibb.co/3pZM9SS/Resume-screenshot.png" property="twitter:image"></meta>
         <meta content="summary_large_image" property="twitter:card"></meta>
