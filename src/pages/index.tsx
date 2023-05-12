@@ -1,3 +1,4 @@
+import {Analytics} from '@vercel/analytics/react';
 import dynamic from 'next/dynamic';
 import {FC, memo} from 'react';
 
@@ -16,15 +17,19 @@ const Header = dynamic(() => import('../components/Sections/Header'), {ssr: fals
 const Home: FC = memo(() => {
   const {title, description} = homePageMeta;
   return (
-    <Page description={description} title={title}>
-      <Header />
-      <Hero />
-      <About />
-      <Resume />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </Page>
+    <>
+      <Page description={description} title={title}>
+        <Header />
+        <Hero />
+        <About />
+        <Resume />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </Page>
+      <Analytics />
+    </>
+
   );
 });
 
