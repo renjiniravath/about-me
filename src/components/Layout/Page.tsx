@@ -13,7 +13,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content={description} name="description" />
 
         {/* several domains list the same content, make sure google knows we mean this one. */}
-        <link href="https://about-me-sandy.vercel.app/" key="canonical" rel="canonical" />
+        <link href="https://renjijosephsabu.vercel.app/" key="canonical" rel="canonical" />
 
         <link href="/renji.png" rel="icon" sizes="any" />
         <link href="/icon.svg" rel="icon" type="image/svg+xml" />
@@ -24,7 +24,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content="https://i.ibb.co/3pZM9SS/Resume-screenshot.png" property="og:image"></meta>
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
-        <meta content="https://about-me-sandy.vercel.app/" property="og:url" />
+        <meta content="https://renjijosephsabu.vercel.app/" property="og:url" />
 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
         <meta content="https://i.ibb.co/3pZM9SS/Resume-screenshot.png" property="twitter:image"></meta>

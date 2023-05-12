@@ -1,6 +1,6 @@
 /* eslint-env node */
 module.exports = {
-  siteUrl: 'https://about-me-sandy.vercel.app',
+  siteUrl: 'https://renjijosephsabu.vercel.app',
   exclude: ['/404*', '/500*'],
   transform: async (config, path) => {
     return {
