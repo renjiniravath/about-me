@@ -23,11 +23,14 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <link href="/site.webmanifest" rel="manifest" />
 
         {/* Open Graph : https://ogp.me/ */}
+        <meta content="/resume-screenshot" property="og:image"></meta>
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
         <meta content={`https://about-me-sandy.vercel.app/${pathname}`} property="og:url" />
 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
+        <meta content="/resume-screenshot" property="twitter:image"></meta>
+        <meta content="summary_large_image" property="twitter:card"></meta>
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
       </Head>

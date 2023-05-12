@@ -31,8 +31,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Renji Joseph Sabu',
-  description: "Full stack developer personal website",
+  title: 'Software Engineer: Renji',
+  description: "US based Full stack developer open to work",
 };
 
 /**
